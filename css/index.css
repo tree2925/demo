@@ -1,0 +1,56 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+	margin: 0;
+  	padding: 0;
+ }
+ .layout {
+ 	min-width: 320px;
+ }
+ .header{
+ 	height: 50px;
+ 	background-color: #FF0000;
+ 	color: yellow;
+ 	line-height: 50px;
+ 	padding-left: 50px;
+ }
+ .main {
+
+ }
+ .main .main-head .btn {
+ 	display: inline-block;
+ 	width: 70px;
+ 	height: 70px;
+ 	background-color: #00FFE8;
+ 	border: none;
+ 	border-radius: 50%;
+ 	margin: 50px 50px;
+ }
+.main h4 {
+   	border-bottom: 1px solid #ccc;
+   	width: 80%;
+   	margin-left: 10%;
+   	line-height: 30px;
+   }
+.main ul li {
+	border-bottom: 1px solid #ccc;
+	width: 80%;
+   	margin-left: 10%;
+   	line-height: 45px;
+   }
+.main ul li a{
+  	text-decoration: none;
+  	padding: 0 30px;
+  }
+.main .new {
+	text-align: center;
+	line-height: 50px;
+}
+.bottom {
+	text-align: center;
+}
+.bottom a{
+	font-size: 20px;
+	margin: 0 35px;
+}
+.bottom .exit {
+	color: red;
+}

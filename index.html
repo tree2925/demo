@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+</head>
+<body>
+	<div class="layout">
+		<!--头部  -->
+		<header id="header" class="header">
+			<p>dangerous</p>	
+		</header>
+		<!-- main -->
+		<div class="main">
+			<div class="main-head">
+				<input type="button" value="点击" class="btn">
+				<span>来源：XX浏览器</span>
+			</div>
+			<h4>全部（16）</h4>
+			<ul>
+				<li><a href="#">email me</a></li>
+				<li><a href="#">email me</a></li>
+				<li><a href="#">email me</a></li>
+				<li><a href="#">email me</a></li>
+				<li><a href="#">email me</a></li>
+			</ul>
+			<p class="new">版本信息 1.0.1</p>
+		</div>
+		<!-- 底部 -->
+		<div class="bottom">
+			<a href="#" title="" class="exit">取消</a>
+			<a href="#" title="" class="download" id="download">一键清理</a>
+		</div>
+	</div>
+
+</body>
+</html>
+<script>
+	var download = document.getElementById('download');
+	download.onclick = function(){
+		alert('手机中病毒了');
+	}
+</script>
